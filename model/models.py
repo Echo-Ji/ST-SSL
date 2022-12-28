@@ -12,9 +12,9 @@ from model.layers import (
     MLP, 
 )
 
-class ST-SSL(nn.Module):
+class STSSL(nn.Module):
     def __init__(self, args):
-        super(ST-SSL, self).__init__()
+        super(STSSL, self).__init__()
         # spatial temporal encoder
         self.encoder = STEncoder(Kt=3, Ks=3, blocks=[[2, int(args.d_model//2), args.d_model], [args.d_model, int(args.d_model//2), args.d_model]], 
                         input_length=args.input_length, num_nodes=args.num_nodes, droprate=args.dropout)

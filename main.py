@@ -10,7 +10,7 @@ import traceback
 import time
 import torch
 
-from model.models import ST-SSL
+from model.models import STSSL
 from model.trainer import Trainer
 from lib.dataloader import get_dataloader
 from lib.utils import (
@@ -35,7 +35,7 @@ def model_supervisor(args):
     args.num_nodes = len(graph)
     
     ## init model and set optimizer
-    model = ST-SSL(args).to(args.device)
+    model = STSSL(args).to(args.device)
     model_parameters = get_model_params([model])
     optimizer = torch.optim.Adam(
         params=model_parameters, 
