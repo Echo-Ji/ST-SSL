@@ -4,6 +4,8 @@ This is a Pytorch implementation of ST-SSL in the following paper:
 
 * J. Ji, J. Wang, C. Huang, et al. "Spatio-Temporal Self-Supervised Learning for Traffic Flow Prediction". in Thirty-Seventh AAAI Conference on Artificial Intelligence, 2023. 
 
+The homepage of J. Ji is available at [here](https://echo-ji.github.io/academicpages/).
+
 ## Requirement
 
 We build this project by Python 3.8 with the following packages: 
