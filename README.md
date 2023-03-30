@@ -1,5 +1,7 @@
 # ST-SSL: Spatio-Temporal Self-Supervised Learning for Traffic Prediction 
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spatio-temporal-self-supervised-learning-for/traffic-prediction-on-nycbike1)](https://paperswithcode.com/sota/traffic-prediction-on-nycbike1?p=spatio-temporal-self-supervised-learning-for)[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spatio-temporal-self-supervised-learning-for/traffic-prediction-on-nycbike2)](https://paperswithcode.com/sota/traffic-prediction-on-nycbike2?p=spatio-temporal-self-supervised-learning-for)[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spatio-temporal-self-supervised-learning-for/traffic-prediction-on-nyctaxi)](https://paperswithcode.com/sota/traffic-prediction-on-nyctaxi?p=spatio-temporal-self-supervised-learning-for)[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spatio-temporal-self-supervised-learning-for/traffic-prediction-on-bjtaxi)](https://paperswithcode.com/sota/traffic-prediction-on-bjtaxi?p=spatio-temporal-self-supervised-learning-for)
+
 This is a Pytorch implementation of ST-SSL in the following paper: 
 
 * J. Ji, J. Wang, C. Huang, et al. "Spatio-Temporal Self-Supervised Learning for Traffic Flow Prediction". in Thirty-Seventh AAAI Conference on Artificial Intelligence, 2023. 
