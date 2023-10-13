@@ -58,7 +58,7 @@ If the environment is ready, please run the following commands to train the mode
 >> ./runme 0 NYCBike1   # 0 gives the GPU id
 ```
 
-This repo contains the NYCBike1 data. If you are interested in other datasets, please download from [GitHub repo](https://github.com/Echo-Ji/ST-SSL_Dataset) or [Beihang Cloud Drive](https://bhpan.buaa.edu.cn:443/link/8FD8DF90A642DB30FA98538EFEDF61D4).
+This repo contains the NYCBike1 data. If you are interested in other datasets, please download them from [GitHub repo](https://github.com/Echo-Ji/ST-SSL_Dataset) or [Beihang Cloud Drive](https://bhpan.buaa.edu.cn/link/AAF30DD8F4A2D942F7A4992959335C2780).
 
 ## Cite
 
