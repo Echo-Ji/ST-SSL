@@ -26,7 +26,9 @@ torch==1.10.1
 
 ## Datasets
 
-The datasets range from `{NYCBike1, NYCBike2, NYCTaxi, BJTaxi}`. Each dataset is composed of 4 files, namely `train.npz`, `val.npz`, `test.npz`, and `adj_mx.npz`.
+The datasets range from `{NYCBike1, NYCBike2, NYCTaxi, BJTaxi}`. You can download them from [GitHub repo](https://github.com/Echo-Ji/ST-SSL_Dataset), [Beihang Cloud Drive](https://bhpan.buaa.edu.cn/link/AAF30DD8F4A2D942F7A4992959335C2780), or [Google Drive](https://drive.google.com/file/d/1n0y6X8pWNVwHxtFUuY8WsTYZHwBe9GeS/view?usp=sharing).
+
+Each dataset is composed of 4 files, namely `train.npz`, `val.npz`, `test.npz`, and `adj_mx.npz`.
 
 ```
 |----NYCBike1\
@@ -58,7 +60,7 @@ If the environment is ready, please run the following commands to train the mode
 >> ./runme 0 NYCBike1   # 0 gives the GPU id
 ```
 
-This repo contains the NYCBike1 data. If you are interested in other datasets, please download them from [GitHub repo](https://github.com/Echo-Ji/ST-SSL_Dataset) or [Beihang Cloud Drive](https://bhpan.buaa.edu.cn/link/AAF30DD8F4A2D942F7A4992959335C2780).
+Note that this repo only contains the NYCBike1 data because including all datasets can make this repo heavy.
 
 ## Cite
 
