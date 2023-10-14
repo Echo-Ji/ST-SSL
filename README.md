@@ -12,6 +12,8 @@ This is a Pytorch implementation of ST-SSL in the following paper:
 
 * [J. Ji](https://echo-ji.github.io/academicpages/), J. Wang, C. Huang, et al. "[Spatio-Temporal Self-Supervised Learning for Traffic Flow Prediction](https://ojs.aaai.org/index.php/AAAI/article/view/25555)". in AAAI 2023.
 
+![framework](https://github.com/Echo-Ji/ST-SSL/assets/23469289/57d66470-5e12-4f27-9558-21cbb34b3a64)
+
 ![new](https://github.com/RUCAIBox/RecBole/blob/master/asset/new.gif) **22/04/2023**: [The post of this paper](https://mp.weixin.qq.com/s/rMNsqYyfoeoysZxeVabh4w) is selected for a **headline** tweet by PaperWeekly and received nearly 7,000 reads. PaperWeekly is a leading AI academic platform in China.
 
 ![new](https://github.com/RUCAIBox/RecBole/blob/master/asset/new.gif) **09/02/2023**: The [video replay](https://underline.io/events/380/posters/14098/poster/68914-584-spatio-temporal-self-supervised-learning-for-traffic-flow-prediction) of academic presentation at AAAI 2023.
