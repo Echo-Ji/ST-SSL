@@ -14,6 +14,8 @@ This is a Pytorch implementation of ST-SSL in the following paper:
 
 ![framework](https://github.com/Echo-Ji/ST-SSL/assets/23469289/57d66470-5e12-4f27-9558-21cbb34b3a64)
 
+![new](https://github.com/RUCAIBox/RecBole/blob/master/asset/new.gif) **27/10/2023**: This paper is picked up by leading WeChat official accounts in the field of spatio-temporal data mining and transportation. [当交通遇上机器学习](https://mp.weixin.qq.com/s/eI26ORLsJe_20WMpA5UeKA) | [时空实验室](https://mp.weixin.qq.com/s/CBKkyeSBTXOya2Cg3sgj7g)
+
 ![new](https://github.com/RUCAIBox/RecBole/blob/master/asset/new.gif) **22/04/2023**: [The post of this paper](https://mp.weixin.qq.com/s/rMNsqYyfoeoysZxeVabh4w) is selected for a **headline** tweet by PaperWeekly and received nearly 7,000 reads. PaperWeekly is a leading AI academic platform in China.
 
 ![new](https://github.com/RUCAIBox/RecBole/blob/master/asset/new.gif) **09/02/2023**: The [video replay](https://underline.io/events/380/posters/14098/poster/68914-584-spatio-temporal-self-supervised-learning-for-traffic-flow-prediction) of academic presentation at AAAI 2023.
@@ -46,8 +48,8 @@ Each dataset is composed of 4 files, namely `train.npz`, `val.npz`, `test.npz`, 
 
 train/val/test data is composed of 4 `numpy.ndarray` objects:
 
-* `x`: a 4D tensor of shape (#timeslots, #lookback_window, #nodes, #flow_types)
-* `y`: a 4D tensor of shape (#timeslots, #predict_horizon, #nodes, #flow_types). `x` and `y` are processed as a `sliding window view`.
+* `x`: a 4D tensor of shape `(#timeslots, #lookback_window, #nodes, #flow_types)`
+* `y`: a 4D tensor of shape `(#timeslots, #predict_horizon, #nodes, #flow_types)`. `x` and `y` are processed as a `sliding window view`.
 
 * `x_offset`: a tensor indicating offsets of `x`'s lookback window. Note that the lookback window of data `x` is not consistent in time.
 * `y_offset`: a tensor indicating offsets of `y`'s predict horizon.
@@ -56,7 +58,7 @@ For all datasets, previous 2-hour flows as well as previous 3-day flows around t
 
 `adj_mx.npz` is a symmetric adjacency matrix, taking the value of 0 or 1.
 
-⚠️ Note that all datasets are processed as a `sliding window view`. Raw data of **NYCBike1** and **BJTaxi** are collected from [STResNet](https://ojs.aaai.org/index.php/AAAI/article/view/10735). Raw data of **NYCBike2** and **NYCTaxi** are collected from [STDN](https://ojs.aaai.org/index.php/AAAI/article/view/4511).
+⚠️ Note that all datasets are processed as a sliding window view. Raw data of **NYCBike1** and **BJTaxi** are collected from [STResNet](https://ojs.aaai.org/index.php/AAAI/article/view/10735). Raw data of **NYCBike2** and **NYCTaxi** are collected from [STDN](https://ojs.aaai.org/index.php/AAAI/article/view/4511).
 
 ## Model training and Evaluation
 
