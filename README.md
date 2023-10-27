@@ -14,7 +14,7 @@ This is a Pytorch implementation of ST-SSL in the following paper:
 
 ![framework](https://github.com/Echo-Ji/ST-SSL/assets/23469289/57d66470-5e12-4f27-9558-21cbb34b3a64)
 
-![new](https://github.com/RUCAIBox/RecBole/blob/master/asset/new.gif) **27/10/2023**: This paper is picked up by leading WeChat official accounts in the field of spatio-temporal data mining and transportation. [当交通遇上机器学习](https://mp.weixin.qq.com/s/eI26ORLsJe_20WMpA5UeKA) | [时空实验室](https://mp.weixin.qq.com/s/CBKkyeSBTXOya2Cg3sgj7g)
+![new](https://github.com/RUCAIBox/RecBole/blob/master/asset/new.gif) **27/10/2023**: This paper is picked up by leading WeChat official accounts in the field of data mining and transportation. [当交通遇上机器学习](https://mp.weixin.qq.com/s/eI26ORLsJe_20WMpA5UeKA) | [时空实验室](https://mp.weixin.qq.com/s/CBKkyeSBTXOya2Cg3sgj7g) | [AI蜗牛车](https://mp.weixin.qq.com/s/vbczwY0UmzF7nBawEHpuaQ)
 
 ![new](https://github.com/RUCAIBox/RecBole/blob/master/asset/new.gif) **22/04/2023**: [The post of this paper](https://mp.weixin.qq.com/s/rMNsqYyfoeoysZxeVabh4w) is selected for a **headline** tweet by PaperWeekly and received nearly 7,000 reads. PaperWeekly is a leading AI academic platform in China.
 
