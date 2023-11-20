@@ -65,7 +65,7 @@ For all datasets, previous 2-hour flows as well as previous 3-day flows around t
 If the environment is ready, please run the following commands to train the model on the specific dataset from `{NYCBike1, NYCBike2, NYCTaxi, BJTaxi}`.
 ```bash
 >> cd ST-SSL
->> ./runme 0 NYCBike1   # 0 gives the GPU id
+>> ./runme 0 NYCBike1   # 0 specifies the GPU id
 ```
 
 Note that this repo only contains the NYCBike1 data because including all datasets can make this repo heavy.
@@ -75,7 +75,7 @@ Note that this repo only contains the NYCBike1 data because including all datase
 If you find the paper useful, please cite the following:
 
 ```
-@article{ji2023modeling, 
+@article{ji2023spatio, 
   title={Spatio-Temporal Self-Supervised Learning for Traffic Flow Prediction}, 
   author={Ji, Jiahao and Wang, Jingyuan and Huang, Chao and Wu, Junjie and Xu, Boren and Wu, Zhenhe and Zhang Junbo and Zheng, Yu}, 
   journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
