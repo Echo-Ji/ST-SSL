@@ -48,7 +48,7 @@ Each dataset is composed of 4 files, namely `train.npz`, `val.npz`, `test.npz`, 
 
 The `train/val/test` data is composed of 4 `numpy.ndarray` objects:
 
-* `X`: input data. It is a 4D tensor of shape `(#samples, #lookback_window, #nodes, #flow_types)`, where `#` denote the number sign. 
+* `X`: input data. It is a 4D tensor of shape `(#samples, #lookback_window, #nodes, #flow_types)`, where `#` denotes the number sign. 
 * `Y`: data to be predicted. It is a 4D tensor of shape `(#samples, #predict_horizon, #nodes, #flow_types)`. Note that `X` and `Y` are paired in the sample dimension. For instance, `(X_i, Y_i)` is the `i`-the data sample with `i` indexing the sample dimension.
 * `X_offset`: a list indicating offsets of `X`'s lookback window relative to the current time with offset `0`.  
 * `Y_offset`: a list indicating offsets of `Y`'s prediction horizon relative to the current time with offset `0`.
