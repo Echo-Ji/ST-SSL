@@ -14,7 +14,7 @@ test_batch_size: 20
 graph_file: data/BJTaxi/adj_mx.npz # num_nodes: 1024
 
 ## model 
-d_input: 1                  # means inflow and outflow
+d_input: 2                  # means inflow and outflow
 d_output: 2                 # means inflow and outflow
 d_model: 64
 dropout: 0.1
